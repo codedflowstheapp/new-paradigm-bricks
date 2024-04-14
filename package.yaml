@@ -1,0 +1,6 @@
+name: Our Big Test
+version: 0.2.0
+python:
+  - '3.9'
+  - '3.10'
+  - '3.11'
