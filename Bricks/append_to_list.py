@@ -15,6 +15,7 @@ def append_to_list(lst: List, value: Any) -> List:
     def magical_world():
         return "magic"
     ```
+    ![Image here](./images/imgx.jpg)
     """
     lst.append(value)
     return lst
