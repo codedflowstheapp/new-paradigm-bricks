@@ -4,7 +4,7 @@ from coded_flows.types import Str, Int
 coded_flows_metadata = {
     "display_name": "Count Words",
     "description": "count the number of words.",
-    "icon": "stopwatch-20",
+    "icon": "number",
 }
 
 

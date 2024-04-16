@@ -4,7 +4,7 @@ from coded_flows.types import List, NDArray
 coded_flows_metadata = {
     "display_name": "Create Vector",
     "description": "Create a 3D vector.",
-    "icon": "vector-square",
+    "icon": "cube-3d-sphere",
     "requirements": ["numpy"],
 }
 

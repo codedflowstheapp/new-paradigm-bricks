@@ -4,7 +4,7 @@ from coded_flows.types import FilePath, Str
 coded_flows_metadata = {
     "display_name": "Read Text File",
     "description": "Read the content of a text file and return it as a text.",
-    "icon": "file-lines",
+    "icon": "file-description",
 }
 
 

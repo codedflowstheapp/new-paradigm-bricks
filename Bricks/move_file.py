@@ -4,7 +4,7 @@ from coded_flows.types import FilePath
 coded_flows_metadata = {
     "display_name": "Move File",
     "description": "move file to a new destination.",
-    "icon": "folder-tree",
+    "icon": "file-arrow-right",
 }
 
 

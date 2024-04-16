@@ -4,7 +4,7 @@ coded_flows_metadata = (
     {
         "display_name": "Generate Text",
         "description": "Generating a random text.",
-        "icon": "font",
+        "icon": "typography",
         "options": [
             {
                 "name": "is_words",

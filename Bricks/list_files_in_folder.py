@@ -4,7 +4,7 @@ from coded_flows.types import DirectoryPath, DataRecords
 coded_flows_metada = {
     "display_name": "List of files",
     "description": "List of files with there size in KB.",
-    "icon": "table-list",
+    "icon": "list",
 }
 
 

@@ -4,7 +4,7 @@ from coded_flows.types import Int, Str
 coded_flows_metadata = {
     "display_name": "Int to Str",
     "description": "Convert integer to string.",
-    "icon": "font",
+    "icon": "typography",
 }
 
 

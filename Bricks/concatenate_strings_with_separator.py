@@ -4,7 +4,7 @@ from coded_flows.types import Str
 coded_flows_metadata = {
     "display_name": "Concatenate",
     "description": "Concatenate two texts.",
-    "icon": "font",
+    "icon": "typography",
     "options": [{"name": "separator", "type": "input", "default": "_"}],
 }
 

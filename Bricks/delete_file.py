@@ -4,7 +4,7 @@ from coded_flows.types import FilePath
 coded_flows_metadata = {
     "display_name": "Delete File",
     "description": "Delete file.",
-    "icon": "trash-can",
+    "icon": "trash",
 }
 
 

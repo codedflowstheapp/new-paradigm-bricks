@@ -5,7 +5,7 @@ conded_flows_metadata = (
     {
         "display_name": "Generate Integer",
         "description": "Generating a random integer value.",
-        "icon": "9",
+        "icon": "number-123",
         "options": [
             {
                 "name": "min_value",

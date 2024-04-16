@@ -1,5 +1,6 @@
 name: Our Big Test
 version: 0.2.0
+icon: brain
 python:
   - '3.9'
   - '3.10'

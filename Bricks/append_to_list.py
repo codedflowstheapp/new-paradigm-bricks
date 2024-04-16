@@ -4,7 +4,7 @@ from coded_flows.types import List, Any
 coded_flows_metadata = {
     "display_name": "Append Value to List",
     "description": "Append a value to list.",
-    "icon": "bars-staggered",
+    "icon": "row-insert-bottom",
 }
 
 

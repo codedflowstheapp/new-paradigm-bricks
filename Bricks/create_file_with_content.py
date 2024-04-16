@@ -4,7 +4,7 @@ from coded_flows.types import FilePath, DirectoryPath, Str
 coded_flows_metadata = {
     "display_name": "Create File",
     "description": "Create a text file with a text content.",
-    "icon": "file-lines",
+    "icon": "script",
 }
 
 

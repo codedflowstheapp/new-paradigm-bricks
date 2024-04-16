@@ -4,7 +4,7 @@ from coded_flows.types import FilePath
 coded_flows_metadata = {
     "display_name": "Update Name",
     "description": "Update file name.",
-    "icon": "pen-clip",
+    "icon": "pencil",
 }
 
 

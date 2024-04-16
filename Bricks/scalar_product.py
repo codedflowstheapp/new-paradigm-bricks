@@ -4,7 +4,7 @@ from coded_flows.types import NDArray, Number
 coded_flows_metadata = {
     "display_name": "Scalar Product",
     "description": "Scalar product of two vectors.",
-    "icon": "vector-square",
+    "icon": "cube-3d-sphere",
     "requirements": ["numpy"],
 }
 
