@@ -1,7 +1,7 @@
 from coded_flows.types import Int
 
 
-conded_flows_metadata = (
+coded_flows_metadata = (
     {
         "display_name": "Generate Integer",
         "description": "Generating a random integer value.",
