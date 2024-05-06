@@ -1,7 +1,7 @@
 from coded_flows.types import DirectoryPath, DataRecords
 
 
-coded_flows_metada = {
+coded_flows_metadata = {
     "display_name": "List of files",
     "description": "List of files with there size in KB.",
     "icon": "list",
