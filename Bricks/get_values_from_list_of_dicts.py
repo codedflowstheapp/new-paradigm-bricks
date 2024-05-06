@@ -1,7 +1,7 @@
 from coded_flows.types import DataRecords, Str, List
 
 
-coded_flows_metada = {
+coded_flows_metadata = {
     "display_name": "Extract values list",
     "description": "Extract values of an attribute from a key-pair list.",
     "icon": "list",

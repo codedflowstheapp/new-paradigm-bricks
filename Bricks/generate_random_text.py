@@ -1,27 +1,25 @@
 from coded_flows.types import Int, Str
 
-coded_flows_metadata = (
-    {
-        "display_name": "Generate Text",
-        "description": "Generating a random text.",
-        "icon": "typography",
-        "options": [
-            {
-                "name": "is_words",
-                "display_name": "Generate Words",
-                "type": "toggle",
-                "default": False,
-            },
-            {
-                "name": "reference_text",
-                "display_name": "Reference Words",
-                "type": "textarea",
-                "default": "this is default text a bit more extensive than others",
-                "max_characters": 1000,
-            },
-        ],
-    },
-)
+coded_flows_metadata = {
+    "display_name": "Generate Text",
+    "description": "Generating a random text.",
+    "icon": "typography",
+    "options": [
+        {
+            "name": "is_words",
+            "display_name": "Generate Words",
+            "type": "toggle",
+            "default": False,
+        },
+        {
+            "name": "reference_text",
+            "display_name": "Reference Words",
+            "type": "textarea",
+            "default": "this is default text a bit more extensive than others",
+            "max_characters": 1000,
+        },
+    ],
+}
 
 
 def generate_random_text(n: Int, options) -> Str:

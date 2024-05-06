@@ -1,31 +1,29 @@
 from coded_flows.types import Int
 
 
-conded_flows_metadata = (
-    {
-        "display_name": "Generate Integer",
-        "description": "Generating a random integer value.",
-        "icon": "number-123",
-        "options": [
-            {
-                "name": "min_value",
-                "type": "integer",
-                "step": 1,
-                "max": 10,
-                "min": 0,
-                "default": 0,
-            },
-            {
-                "name": "max_value",
-                "type": "integer",
-                "step": 1,
-                "max": 200,
-                "min": 0,
-                "default": 100,
-            },
-        ],
-    },
-)
+coded_flows_metadata = {
+    "display_name": "Generate Integer",
+    "description": "Generating a random integer value.",
+    "icon": "number-123",
+    "options": [
+        {
+            "name": "min_value",
+            "type": "integer",
+            "step": 1,
+            "max": 10,
+            "min": 0,
+            "default": 0,
+        },
+        {
+            "name": "max_value",
+            "type": "integer",
+            "step": 1,
+            "max": 200,
+            "min": 0,
+            "default": 100,
+        },
+    ],
+}
 
 
 def generate_random_integer(options) -> Int:
