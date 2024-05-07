@@ -1,4 +1,5 @@
 name: Our Big Test
+pname: our_big_test
 version: 0.2.0
 icon: brain
 private: true
