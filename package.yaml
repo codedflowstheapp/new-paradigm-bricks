@@ -1,8 +1,10 @@
 name: Our Big Test
 pname: our_big_test
+description: This is a first test for a package here
 version: 0.2.0
 icon: brain
 private: true
+base: false
 category: folder_and_file_management
 python:
   - '3.9'
