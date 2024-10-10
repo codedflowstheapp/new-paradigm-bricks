@@ -47,6 +47,11 @@ def generate_random_text(n: Int, options) -> Str:
         # Generate the new text by randomly selecting words
         generated_words = [random.choice(words) for _ in range(n)]
 
+        for word in generate_words:
+            print("===========>>> This is the list of words!!! <<<===========")
+            print(f"===========>>> {word}")
+            print("===========>>> End of the list <<<===========")
+
         # Combine the generated words into a text
         generated_text = " ".join(generated_words)
     else:
