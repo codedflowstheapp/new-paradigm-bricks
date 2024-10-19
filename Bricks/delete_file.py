@@ -1,4 +1,4 @@
-from coded_flows.types import FilePath
+from coded_flows.types import Str
 
 
 coded_flows_metadata = {
@@ -8,7 +8,7 @@ coded_flows_metadata = {
 }
 
 
-def delete_file(file_path: FilePath):
+def delete_file(file_path: Str):
     import os
 
     os.remove(file_path)

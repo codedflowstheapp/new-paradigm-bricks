@@ -1,4 +1,4 @@
-from coded_flows.types import FilePath, Str
+from coded_flows.types import Str
 
 
 coded_flows_metadata = {
@@ -8,7 +8,7 @@ coded_flows_metadata = {
 }
 
 
-def read_text_file(file_path: FilePath) -> Str:
+def read_text_file(file_path: Str) -> Str:
     import os
 
     # Check if the file exists
