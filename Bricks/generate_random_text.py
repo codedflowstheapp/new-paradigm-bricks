@@ -1,4 +1,9 @@
+import logging
 from coded_flows.types import Int, Str
+
+# Set up basic configuration for logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 coded_flows_metadata = {
     "display_name": "Generate Text",
@@ -20,7 +25,6 @@ coded_flows_metadata = {
         },
     ],
 }
-
 
 def generate_random_text(n: Int, options) -> Str:
     """## This is a simple doc
@@ -48,9 +52,9 @@ def generate_random_text(n: Int, options) -> Str:
         generated_words = [random.choice(words) for _ in range(n)]
 
         for word in generate_words:
-            print("===========>>> This is the list of words!!! <<<===========")
-            print(f"===========>>> {word}")
-            print("===========>>> End of the list <<<===========")
+            logger.info("===========>>> This is the list of words!!! <<<===========")
+            logger.info(f"===========>>> {word}")
+            logger.info("===========>>> End of the list <<<===========")
 
         # Combine the generated words into a text
         generated_text = " ".join(generated_words)
