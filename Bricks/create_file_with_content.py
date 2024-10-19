@@ -1,4 +1,4 @@
-from coded_flows.types import FilePath, DirectoryPath, Str
+from coded_flows.types import Str
 
 
 coded_flows_metadata = {
@@ -8,9 +8,7 @@ coded_flows_metadata = {
 }
 
 
-def create_file_with_content(
-    text_content: Str, file_path: DirectoryPath, file_name: Str
-) -> FilePath:
+def create_file_with_content(text_content: Str, file_path: Str, file_name: Str) -> Str:
     import os
 
     # Ensure the directory structure exists

@@ -1,4 +1,4 @@
-from coded_flows.types import DirectoryPath, DataRecords
+from coded_flows.types import Str, DataRecords
 
 
 coded_flows_metadata = {
@@ -8,7 +8,7 @@ coded_flows_metadata = {
 }
 
 
-def list_files_in_folder(folder_path: DirectoryPath) -> DataRecords:
+def list_files_in_folder(folder_path: Str) -> DataRecords:
     """## This is a simple doc
     It was from inside the docstring...magical right?!
     ```python

@@ -1,4 +1,4 @@
-from coded_flows.types import FilePath
+from coded_flows.types import Str
 
 
 coded_flows_metadata = {
@@ -8,7 +8,7 @@ coded_flows_metadata = {
 }
 
 
-def move_file(source_path: FilePath, destination_folder: FilePath):
+def move_file(source_path: Str, destination_folder: Str):
     """## This is a simple doc
     It was from inside the docstring...magical right?!
     ```python

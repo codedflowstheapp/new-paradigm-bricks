@@ -1,4 +1,4 @@
-from coded_flows.types import FilePath
+from coded_flows.types import Str
 
 
 coded_flows_metadata = {
@@ -8,7 +8,7 @@ coded_flows_metadata = {
 }
 
 
-def update_file_name(old_file_path: FilePath, new_file_name: FilePath) -> FilePath:
+def update_file_name(old_file_path: Str, new_file_name: Str) -> Str:
     import os
 
     # Extract the directory path and the current file name

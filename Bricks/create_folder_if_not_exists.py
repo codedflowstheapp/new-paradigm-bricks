@@ -1,4 +1,4 @@
-from coded_flows.types import DirectoryPath
+from coded_flows.types import Str
 
 
 coded_flows_metadata = {
@@ -8,7 +8,7 @@ coded_flows_metadata = {
 }
 
 
-def create_folder_if_not_exists(folder_path: DirectoryPath) -> DirectoryPath:
+def create_folder_if_not_exists(folder_path: Str) -> Str:
     import os
 
     if not os.path.exists(folder_path):
