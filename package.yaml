@@ -1,7 +1,7 @@
 name: Our Big Test
 pname: our_big_test
 description: This is a first test for a package here
-version: 0.2.9
+version: 0.2.10
 icon: brain
 private: false
 base: true
