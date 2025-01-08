@@ -20,7 +20,7 @@ coded_flows_metadata = {
 }
 
 
-def extract_rgb_channels(
+def image_rgb_channels(
     input_image: Union[Str, PILImage, NDArray, Bytes, BytesIOType], options
 ) -> Tuple[PILImage, PILImage, PILImage]:
 
