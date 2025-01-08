@@ -22,7 +22,7 @@ coded_flows_metadata = {
             "display_name": "Output Type",
             "type": "select",
             "choices": ["dataframe", "np_ip_array", "geo_list", "num_list"],
-            "default": "array",
+            "default": "dataframe",
         },
     ],
 }

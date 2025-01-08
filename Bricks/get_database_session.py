@@ -7,15 +7,6 @@ coded_flows_metadata = {
     "display_name": "PG Session",
     "description": "Postgres Session.",
     "icon": "database",
-    "docker": {
-        "service": "db-postgres",
-        "image": "postgres",
-        "image-version": 16,
-        "ports": [{"target": 5432, "published": 5432, "protocol": "tcp"}],
-        "volumes": [{"name": "db-volume", "container-path": "/data"}],
-        "networks": ["backend"],
-        "secrets": [{"name": "postgres_password", "env": "POSTGRES_PASSWORD_FILE"}],
-    },
 }
 
 
