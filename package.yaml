@@ -1,11 +1,9 @@
-name: Our Big Test
-pname: our_big_test
-description: This is a first test for a package here
-version: 0.2.12
+name: "Mario's Package"
+pname: mario_package
+description: This is Mario Private Package
+version: 3.3.33
 icon: brain
-private: false
-base: true
-category: folder_and_file_management
+private: true
 python:
   - '3.9'
   - '3.10'
